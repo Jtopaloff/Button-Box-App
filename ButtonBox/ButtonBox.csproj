@@ -16,6 +16,12 @@
     <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="Assets\favicon_io.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\favicon_io.zip" />
+  </ItemGroup>
+  <ItemGroup>
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>
   <ItemGroup>
