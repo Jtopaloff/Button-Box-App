@@ -8,7 +8,7 @@ public partial class ProfileManagerService
 {
     //todo if no json exists, make a new one
 
-    public ProfileManager()
+    public ProfileManagerService()
     {
         _profileList = LoadLayoutProfileList();
     }
