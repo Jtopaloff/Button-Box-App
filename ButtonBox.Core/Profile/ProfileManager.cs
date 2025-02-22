@@ -1,5 +1,4 @@
-﻿using ButtonBoxV3.Brain.Profile;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.IO;
 using System.Net;
 namespace ButtonBoxApp.Brain.Profile;
